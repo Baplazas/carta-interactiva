@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f4f1">
+  <meta name="description" content="Una carta hecha con cariño.">
+  <title>Una pregunta para ti</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main class="page-shell">
+    <header class="topline">
+      <span class="eyebrow">UNA FORMA DE DEMOSTRAR MI CARIÑO</span>
+      <span class="tiny-heart" aria-hidden="true">♡</span>
+    </header>
+
+    <section class="intro" id="intro">
+      <p class="kicker">Hay algo que quisiera preguntarte vida mia...</p>
+      <h1>¿Podemos intentarlo<br><em>una vez más?</em></h1>
+      <p class="lead" id="introMessage">
+        Sé que las palabras no borran lo que he hecho, pero solo quiero  decirte 
+        que lo que siento por ti es mas fuerte que cualquier cosa, quiero hacer
+        las cosas mejor por ti, por mi y por nuestra familia.
+      </p>
+
+      <div class="photo-strip" id="photoStrip" aria-label="Nuestros recuerdos">
+        <figure class="photo-card photo-main">
+          <img src="assets/fotos/foto1.jpg" alt="Un recuerdo nuestro">
+          <figcaption>un recuerdo bonito</figcaption>
+        </figure>
+        <figure class="photo-card photo-side">
+          <img src="assets/fotos/foto2.jpg" alt="Otro recuerdo nuestro">
+          <figcaption>de tantos momentos</figcaption>
+        </figure>
+        <figure class="photo-card photo-small">
+          <img src="assets/fotos/foto3.jpg" alt="Un momento especial">
+          <figcaption>que guardo junto a ti!</figcaption>
+        </figure>
+      </div>
+
+      <div class="question-card">
+        <span class="question-mark">♡</span>
+        <h2>¿Deseas darme la oportunidad de mejorar las cosas?</h2>
+        <p>No tienes que responder por compromiso. Quiero que sea una decisión sincera.</p>
+        <div class="buttons-area" id="buttonsArea">
+          <button class="btn btn-yes" id="yesButton" type="button">Sí, quiero ♡</button>
+          <button class="btn btn-no" id="noButton" type="button">No 🙈</button>
+        </div>
+        <p class="no-hint" id="noHint" aria-live="polite">Elige con el corazón. Sin presiones.</p>
+      </div>
+    </section>
+
+    <section class="letter hidden" id="letter" aria-live="polite">
+      <div class="letter-icon">♡</div>
+      <p class="kicker">Gracias por estar!</p>
+      <h2>Me gustaría hacerlo<br><em>mejor esta vez.</em></h2>
+      <div class="letter-body" id="finalMessage">
+        <p>No quiero prometerte que todo será perfecto. Quiero demostrarte con acciones que puedo escuchar, aprender y cuidar mejor lo que estamos construyendo.</p>
+        <p>Gracias por darme este espacio. Lo valoro vida de mi corazón. ♡</p>
+      </div>
+
+      <div class="memory-gallery" id="memoryGallery">
+        <figure class="memory-card">
+          <img src="assets/fotos/foto4.jpg" alt="Otro recuerdo especial">
+          <figcaption>Un momento que atesoro, es haber iniciado la Universidad junto a ti...</figcaption>
+        </figure>
+        <figure class="memory-card">
+          <img src="assets/fotos/foto5.jpg" alt="Otro recuerdo especial">
+          <figcaption>otro momento que aprecio es tener a mi familia junta ♡ </figcaption>
+        </figure>
+      </div>
+
+      <button class="music-button" id="musicButton" type="button" aria-pressed="false">
+        <span aria-hidden="true">♫</span> Reproducir nuestra canción
+      </button>
+      <p class="music-note" id="musicNote">La música comienza cuando tú lo decidas.</p>
+      <button class="restart-button" id="restartButton" type="button">Volver a leer la carta</button>
+    </section>
+
+    <footer>
+      <p>Hecho con cariño, sin esperar una respuesta por obligación.</p>
+    </footer>
+
+    
+  </main>
+
+  <audio id="backgroundMusic" src="assets/musica/cancion.mp3" preload="none" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>

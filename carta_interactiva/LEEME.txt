@@ -1,0 +1,55 @@
+# Carta interactiva
+
+Página web estática hecha con HTML, CSS y JavaScript. No requiere servidor ni base de datos.
+
+## Personalizarla
+
+### 1. Agregar fotografías
+Copia tus imágenes a `assets/fotos/` y usa estos nombres:
+- `foto1.jpg`
+- `foto2.jpg`
+- `foto3.jpg`
+- `foto4.jpg`
+
+Puedes usar `.png` o `.webp`, pero si cambias la extensión también debes cambiar el nombre en `index.html`.
+
+Las fotos 1, 2 y 3 aparecen en la primera pantalla. La foto 4 aparece después de pulsar «Sí».
+Si no agregas alguna foto, su marco se oculta automáticamente.
+
+### 2. Agregar música
+Copia un archivo de audio MP3 a `assets/musica/` y llámalo `cancion.mp3`.
+La música no empieza sola: la persona debe tocar el botón para reproducirla. Esto es normal en los navegadores móviles.
+
+### 3. Cambiar los mensajes
+Abre `index.html` y busca:
+- `¿Podemos intentarlo una vez más?`
+- El párrafo que comienza con `Sé que las palabras...`
+- `¿Deseas darme la oportunidad de mejorar las cosas?`
+- El texto dentro de `id="finalMessage"`
+
+Edita esas frases con tus propias palabras y guarda el archivo.
+
+### 4. Probar en tu computador
+Abre `index.html` en Chrome, Edge o Firefox. Para probar la música, agrega primero el MP3.
+
+## Publicar gratis con GitHub Pages
+
+1. Inicia sesión en https://github.com/
+2. Crea un repositorio nuevo, por ejemplo `carta-interactiva`.
+3. Si tienes GitHub Free, deja el repositorio como **Public**.
+4. Sube el contenido de esta carpeta al nivel principal del repositorio. Es importante que `index.html` quede en la raíz, no dentro de otra carpeta.
+5. Abre **Settings → Pages**.
+6. En **Build and deployment**, selecciona **Deploy from a branch**.
+7. Elige la rama `main` y la carpeta `/(root)`, y pulsa **Save**.
+8. Espera a que termine la publicación. En esa misma sección aparecerá el enlace **Visit site**.
+
+El enlace tendrá una forma parecida a:
+`https://TU-USUARIO.github.io/carta-interactiva/`
+
+## Importante sobre privacidad
+
+GitHub Pages publica el sitio en internet. No subas fotografías, nombres ni información privada sin el consentimiento de las personas que aparecen. Cualquier persona que tenga el enlace podría compartirlo.
+
+## Compatibilidad
+
+La página está pensada para móviles y computadores modernos. La reproducción de audio requiere una acción de la persona usuaria. GitHub Pages aloja archivos estáticos, por lo que no hay formulario privado ni almacenamiento de respuestas.
